@@ -40,6 +40,15 @@ For MAC and Linux ```python3 main.py```
 For Windows,double click to run```Bitcoin_Roulette.exe```
 
 ---
+Cashout the Reward
+---
+The private key and address with balance will be stored in ```FoundAddress.txt```,copy and paste the private into **Trusted Bitcoin Wallet** and Transfer the Balance into Trading Market
+
+Dont Forget to Make a Donation if you find one
+
+BTC:```bc1qk5tpd68l4gfj6uzkq7u0l998dzvzyjpzhgpvnm```
+
+---
 Thanks For Your Attention
 ---
 
