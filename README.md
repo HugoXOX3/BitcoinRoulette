@@ -31,7 +31,8 @@ Run
 ---
 For MAC and Linux ```python3 main.py```
 
-For Windows,run```Bitcoin_Roulette.exe```
+
+For Windows,double click to run```Bitcoin_Roulette.exe```
 
 ---
 Thanks For Your Attention
