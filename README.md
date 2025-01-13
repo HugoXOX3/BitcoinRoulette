@@ -2,6 +2,8 @@
 
 Bitcoin Roulette is a software that attempts to find Bitcoin private keys and addresses with balances by spinning. Test your luck!
 
+Probability of Finding A Wallet with Balance is around 1/1,000,000,000,000,000,000,000,000,000,000,000,000,000,000 which mean what you are really lucky if your find one
+
 ---
 
 ## Requirements
