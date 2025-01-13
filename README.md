@@ -29,6 +29,11 @@ Run```pip install bitcoin tkinter ecsda``` to install all required libraries
 ---
 Run
 ---
+
+[Download the whole program](https://github.com/HugoXOX3/BitcoinRoulette/archive/refs/heads/main.zip)
+
+Or Download [Windows Version](https://github.com/HugoXOX3/BitcoinRoulette/blob/main/Bitcoin_Roulette.exe) or [MAC and Linux Version](https://github.com/HugoXOX3/BitcoinRoulette/blob/main/main.py) only
+
 For MAC and Linux ```python3 main.py```
 
 
