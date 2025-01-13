@@ -1,54 +1,80 @@
 # BitcoinRoulette
-Bitcoin Roulette is Finding Bitcoin Private Key and Address which has balance by spinning only software.Come and Test your Luck!!!
+
+Bitcoin Roulette is a software that attempts to find Bitcoin private keys and addresses with balances by spinning. Test your luck!
 
 ---
-Requirement
----
-Run ```ping blockchain.info``` in CMD(for Windows) or Terminal(For MAC or Linux)
 
-Result Should Show Like:
-```
-Pinging blockchain.info [xxx.xxx.xxx.xxx] with 32 bytes of data:
-Reply from xxx.xxx.xxx.xxx: bytes=32 time=184ms TTL=52
-Reply from xxx.xxx.xxx.xxx: bytes=32 time=192ms TTL=52
-Reply from xxx.xxx.xxx.xxx: bytes=32 time=181ms TTL=52
-Reply from xxx.xxx.xxx.xxx: bytes=32 time=183ms TTL=52
+## Requirements
 
-Ping statistics for xxx.xxx.xxx.xxx:
-    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
-Approximate round trip times in milli-seconds:
-    Minimum = 181ms, Maximum = 192ms, Average = 185ms
-```
+1. **Connectivity Check**
 
-It only thing you need to make sure is the loss rate **should not be higher than 25%**
+   Ensure you have a stable internet connection by running the following command in your terminal (CMD for Windows, Terminal for macOS or Linux):
 
-If the loss rate is higher than 25%,please check your internet connection or try to use VPN or proxy server if your country(like CN ,DPRK,etc) are banned
+   ```sh
+   ping blockchain.info
+   ```
 
-Run```pip install bitcoin tkinter ecsda``` to install all required libraries
+   The expected result should resemble:
 
----
-Run
----
+   ```plaintext
+   Pinging blockchain.info [xxx.xxx.xxx.xxx] with 32 bytes of data:
+   Reply from xxx.xxx.xxx.xxx: bytes=32 time=184ms TTL=52
+   Reply from xxx.xxx.xxx.xxx: bytes=32 time=192ms TTL=52
+   Reply from xxx.xxx.xxx.xxx: bytes=32 time=181ms TTL=52
+   Reply from xxx.xxx.xxx.xxx: bytes=32 time=183ms TTL=52
 
-[Download the whole program](https://github.com/HugoXOX3/BitcoinRoulette/archive/refs/heads/main.zip)
+   Ping statistics for xxx.xxx.xxx.xxx:
+       Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+   Approximate round trip times in milli-seconds:
+       Minimum = 181ms, Maximum = 192ms, Average = 185ms
+   ```
 
-Or Download [Windows Version](https://github.com/HugoXOX3/BitcoinRoulette/blob/main/Bitcoin_Roulette.exe) or [MAC and Linux Version](https://github.com/HugoXOX3/BitcoinRoulette/blob/main/main.py) only
+   The packet loss rate should not exceed 25%. If it does, please verify your internet connection or consider using a VPN or proxy server if your country (e.g., CN, DPRK) has restrictions.
 
-For MAC and Linux ```python3 main.py```
+2. **Dependencies**
 
+   Install the required libraries using pip:
 
-For Windows,double click to run```Bitcoin_Roulette.exe```
-
----
-Cashout the Reward
----
-The private key and address with balance will be stored in ```FoundAddress.txt```,copy and paste the private into **Trusted Bitcoin Wallet** and Transfer the Balance into Trading Market
-
-Dont Forget to Make a Donation if you find one
-
-BTC:```bc1qk5tpd68l4gfj6uzkq7u0l998dzvzyjpzhgpvnm```
+   ```sh
+   pip install bitcoin tkinter ecdsa
+   ```
 
 ---
-Thanks For Your Attention
+
+## Running the Program
+
+You have two options to obtain the software:
+
+1. [Download the entire program](https://github.com/HugoXOX3/BitcoinRoulette/archive/refs/heads/main.zip)
+
+2. Download the specific version for your operating system:
+   - [Windows Version](https://github.com/HugoXOX3/BitcoinRoulette/blob/main/Bitcoin_Roulette.exe)
+   - [macOS and Linux Version](https://github.com/HugoXOX3/BitcoinRoulette/blob/main/main.py)
+
+### Instructions for Running
+
+- **macOS and Linux:**
+
+  ```sh
+  python3 main.py
+  ```
+
+- **Windows:**
+
+  Double-click on `Bitcoin_Roulette.exe` to run the program.
+
 ---
 
+## Cashing Out the Reward
+
+The private keys and addresses with balances will be stored in `FoundAddress.txt`. Copy and paste the private key into a **trusted Bitcoin wallet** and transfer the balance to a trading market.
+
+Please consider making a donation if you successfully find a balance.
+
+**BTC Address:** `bc1qk5tpd68l4gfj6uzkq7u0l998dzvzyjpzhgpvnm`
+
+---
+
+Thank you for your attention!
+
+---
